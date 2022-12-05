@@ -2,7 +2,7 @@
 ![Recipedia](../images/hopehacksLogo.webp)
 Recipedia is a react application that allows users to input food items and in turn, receive a multitude of recipes along with all of their nutritional value and steps. Our app also provides a variety of pantry locations that provide food for the community. With this app, our group wanted to bring attention to the low access to healthy foods in low-income areas. We believe that access to healthy food is a privilege that should be accessible to all no matter their status.
 
-##Features
+## Features
 Healthy recipes from a third-party api (EDAMAM) 
 You can enter a dish/drink/sweet you'd like to make, like "coffee and croissant" or "chicken enchilada" and recieve different recipes. Edamam's API has accurate data with tens of thousands of foods, including international dishes.
 Users can also register to the Newsletter with their names, email, and phone and that will be stored in our MYSQL database.
