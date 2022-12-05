@@ -1,0 +1,139 @@
+/* NEWSLETTER PAGE */
+/*Targeting the actual container*/
+  
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100%;
+    padding: 100px 60px;
+  }
+  
+  /*after the container moves*/
+  .container:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; background:url('https://cdn.shopify.com/s/files/1/0520/0848/5056/articles/BlogHeader-protein_bowl_1100x.jpg?v=1651768262')no-repeat center ;
+    background-size:cover;
+    z-index: -1;
+    filter:blur(3px);
+    
+  }
+  
+  .contact-box{
+    max-width: 850px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:rgba(0, 0, 0, 0.803);
+    border: 4px solid white;
+    
+  }
+  
+  .left{
+    height: 100%;
+    background: url('https://cdn.shopify.com/s/files/1/0520/0848/5056/articles/BlogHeader-protein_bowl_1100x.jpg?v=1651768262') no-repeat center;
+    background-size: cover;
+  }
+  
+  .right{
+     padding: 25px 40px;
+  }
+  
+    
+    .formContainer #inputCreatePost {
+      height: 40px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border: 2px solid grey;
+      border-radius: 5px;
+      padding-left: 10px;
+      font-size: 20px;
+    }
+  
+  h2{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  h2:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translatex(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius:2px;
+    background-color: white;
+  }
+  
+  .btn{
+    width: 20vh;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color:white;
+    cursor:pointer;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    color: black;
+    transition: .5s;
+    
+  }
+  
+  .btn:hover{
+    background-color: #0C4C91;
+    color:white;
+  }
+  
+  
+  /* Mobile Media Query */
+  @media screen and (min-width: 320px) and (max-width:480px) { 
+    
+    .container{
+     flex-direction: column; 
+    }
+    
+    .contact-box{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  
+    .left{
+      height: 200px;
+    }
+
+    footer{
+      display: none;
+    }
+
+    
+  }
+  
+  /* Newsletter Media Query Tablet  */
+  @media  screen and (min-width: 481px) and (max-width:768px) {
+    
+  .contact-box{
+      display: grid;
+      grid-template-columns: 1/3fr;
+    }
+      
+  }

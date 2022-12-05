@@ -1,0 +1,509 @@
+/* HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE */
+
+
+/* HERO HERO HERO HERO HERO HERO HERO HERO HERO  */
+.Hero {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  
+  }
+  
+  .heroImg {
+  
+    background-image: url(../../assets/Images/foodDrive1.webp);
+    background-size: cover;
+  
+    height: 80vh;
+    width: 98vw;
+  
+  }
+  
+  
+  .homeH1 {
+  
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+    color: #0c4c91;
+    font-size: 3rem;
+    /* letter-spacing: 0.2rem; */
+    font-style: italic;
+    margin-bottom: 0;
+  
+  }
+  
+  .heroSub {
+  
+    font-size: 2rem;
+    margin-top: 0;
+    font-style: italic;
+  
+    text-align: center;
+  
+  }
+  
+  .heroText {
+  
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  
+    text-align: center;
+  
+  
+  
+  }
+  
+  .heroNav {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    width: inherit;
+    gap: 2rem;
+  }
+  
+  
+  .howToBtn, .recipeBtn {
+  
+    width: 40vw;
+    padding: 1rem;
+  
+    font-size: 1.5rem;
+  
+    background-color: #0c4c91;
+    color: white;
+  
+  
+  }
+  
+  
+  .howToBtn:hover, .recipeBtn:hover, .searchBTN:hover {
+  
+    cursor: pointer; 
+    /* box-shadow: white 0px 0px 0px 10px; */
+  
+  }
+  
+  /* STATS-SECTION STATS-SECTION STATS-SECTION STATS-SECTION STATS-SECTION */
+  
+  .homeStats {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  
+  }
+  
+  .recipeStats, .pantryStats, .familyStats {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    text-align: center;
+  
+  
+  
+  }
+  
+  .stat {
+    font-size: 20px;
+  
+  }
+  
+  
+  .statimg1 {
+  
+    background-image: url(../../assets/Images/searchIcon-copy.jpg);
+  
+    height: 35vh;
+    width: 18vw;
+  
+  }
+  
+  .statimg2 {
+    
+    background-image: url(../../assets/Images/donateIcon-copy.jpg);
+  
+    height: 35vh;
+    width: 18vw;
+  
+  
+  }
+  
+  .statimg3 {
+  
+    background-image: url(../../assets/Images/familiesIcon.jpeg);
+    background-size: cover;
+  
+    height: 35vh;
+    width: 18vw;
+  }
+  
+  
+  /* IMG IMG IMG IMG IMG IMG IMG IMG IMG IMG IMG */
+  
+  .siteImg {
+  
+    background-image: url(../../assets/Images/foodDrive2.jpeg);
+    background-size: cover;
+    height: 80vh;
+  width: inherit;
+
+
+  }
+  
+  
+  /* HOW-TO-USE-SECTION HOW-TO-USE-SECTION HOW-TO-USE-SECTION HOW-TO-USE-SECTION HOW-TO-USE-SECTION  */
+  
+  .containerWarp {
+  
+    /* background-color: #ECE8EF; */
+    padding: 1rem;
+  
+  }
+  
+  
+  .UseHow {
+    color: black;
+    font-size: 3.5rem;
+    text-align: center;
+    /* background-color: #0c4c91; */
+  
+  }
+  
+  .howText {
+  
+    text-align: center;
+    font-size: 1.5rem;
+
+    white-space: pre-wrap;
+  
+  }
+  
+  .howToSection {
+  
+    padding-bottom: 3rem;
+  
+  }
+  
+  
+  /* FEATURED-IN-SECTION FEATURED-IN-SECTION FEATURED-IN-SECTION FEATURED-IN-SECTION */
+  
+  .featContainer {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    padding-bottom: 3rem;
+  
+  
+  }
+  
+  .featText {
+  
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+  
+  }
+  
+  .featuredOn {
+    background-image: url(../../assets/Images/featuredIn.gif);
+    background-color: white;
+    background-blend-mode:multiply;
+    background-size: contain;
+    height: 30vh;
+    width: 80vw;
+    padding-left: 10vw;
+  
+  }
+  
+  
+  
+  /* SEARCH-SECTION SEARCH-SECTION SEARCH-SECTION SEARCH-SECTION SEARCH-SECTION */
+  
+  #searchWarp {
+    padding: 0;
+    margin: 0;
+  
+  }
+  
+  
+  .searchSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   /* height: 130vh; */
+    padding-top: 0;
+    /* background-color: aqua; */
+  }
+  
+  
+  .searchBox {
+    /* display: none; */
+    /* background-image: url(./assets/Images/foodBg.webp); */
+    box-shadow: 0px 0px 5px 5px;
+  
+  
+  }
+  
+  .inputBar {
+    width: 20vw;
+    padding: 1rem;
+  
+  }
+  
+  .menuPrompt {
+    font-size: 3rem;
+    text-align: center;
+    font-style: italic;
+    padding: 0;
+    color: #0c4c91;
+    font-weight: bolder;
+  
+  
+  }
+  
+  
+  .searchBar {
+    padding: 3rem;
+    padding-top: 0;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  
+  .searchResults {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 60vh;
+    padding: 5rem;
+    width: 60vw;
+    overflow: auto;
+  
+  }
+  
+  
+  /* MISC MISC MISC MISC MISC MISC MISC MISC MISC MISC MISC MISC */
+  
+  .blank {
+    height: 5vh;
+  
+  }
+  
+  
+  
+  
+  /* HOMEPAGE COMPOENTS:  */
+  /* RECIPE-TILE RECIPE-TILE RECIPE-TILE RECIPE-TILE RECIPE-TILE */
+  
+  .recipeTileContainer {
+  
+    max-width: 60vw;
+    padding: 1.5rem;
+  
+    border-radius: 0.4rem;
+    border-color: black;
+    border-style: solid;
+  
+    gap: 3rem;
+    background-image: url(../../assets/Images/foodBg.webp);
+    background-color: #0c4c91;
+    background-blend-mode: multiply;
+    color: white;
+    background-size: contain;
+  
+    font-weight: bolder;
+  
+  
+  }
+  
+  .tileLabel {
+  
+    text-align: center;
+    font-size: 2.5rem;
+  
+  }
+  
+  .recipeTile {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+  
+  
+  }
+  
+  .recipeIMG {
+  
+    padding-right: 3rem;
+  
+  }
+  
+  
+  .recipeHealthLabels {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  
+  
+  
+  /* HOMEPAGE MQ HOMEPAGE MQ HOMEPAGE MQ HOMEPAGE MQ HOMEPAGE MQ */
+  /* MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES */
+  
+  @media only screen and (max-width: 768px) {
+  
+    .howToBtn, .recipeBtn {
+  
+      width: 40vw;
+      padding: 1rem;
+    
+      font-size: 1rem;
+    
+      background-color: #0c4c91;
+      color: white;
+    
+    
+    }
+  
+  
+    .homeStats {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    
+    }
+  
+    .statimg1, .statimg2, .statimg3 {
+  
+      background-size: cover;
+      height: 20vh;
+      width: 30vw;
+  
+    }
+  
+    .featuredOn {
+  
+  
+      background-image: url(../../assets/Images/featuredIn.gif);
+      background-color: white;
+      background-blend-mode: multiply;
+      background-size: contain;
+      height: 5vh;
+      width: 80vw;
+      padding-left: 10vw;
+    
+    }
+  
+    .menuPrompt {
+  
+      font-size: 1.5rem;
+      text-align: center;
+      font-style: italic;
+    
+      padding: 0;
+      color: #0c4c91;
+      font-weight: bolder;
+  
+    
+    }
+  
+    .recipeIMG {
+  
+      padding-right: 1rem;
+  
+      height: 20vh;
+      width: 40vw;
+    
+    }
+  
+    .recipeTile {
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .tileLabel {
+  
+      text-align: center;
+      font-size: 1.5rem;
+    
+    }
+  
+    .recipeHealthLabels {
+    
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      font-size: 0.6rem;
+    
+    }
+  
+  
+  }
+  
+  
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
+    .statimg1, .statimg2, .statimg3 {
+  
+      background-size: cover;
+      height: 40vh;
+      width: 30vw;
+  
+    }
+  
+    .menuPrompt {
+  
+      font-size: 2rem;
+      text-align: center;
+      font-style: italic;
+    
+      padding: 0;
+      color: #0c4c91;
+      font-weight: bolder;
+  
+    
+    }
+  
+    .recipeTile {
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    
+    
+    
+    }
+  
+  
+  }
