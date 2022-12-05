@@ -14,6 +14,8 @@ Download the app to your local machine. Delete all the "package-lock.json" file.
 
 To get the app running 
 You will open a terminal for your server (cd server) and then npm start. And open another terminal for your client folder (cd client) and do another npm start. If you accidently kill ther terminal this is how you would get the app up and running again.
+
+
 To get conneted with the mysql database you are going to go in the "server" folder and go to the "config" folder in here you will change lines 3-5 to your personal mysql info. 
 
 ## Stopping the app
