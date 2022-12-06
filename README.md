@@ -10,7 +10,7 @@ Users can also register to the Newsletter with their names, email, and phone and
 
 ## Using and Running our app
 In order to begin using our app.....
-Download the app to your local machine. Delete all the "package-lock.json" files. Next, open a terminal and go to the server directory(cd server) and do a npm install. Open another terminal and go to the client directory (cd client) and do a npm install. After you do this you go back to the server terminal and do a npm start and do the same in the client terminal.
+Download the app to your local machine. Delete all the "package-lock.json" files. Next, open a terminal and go to the server directory(cd server) and do a npm install. Open another terminal and go to the client directory (cd client) and do a npm install. 
 
 To get the app running 
 You will open a terminal for your server (cd server) and then npm start. And open another terminal for your client folder (cd client) and do another npm start. If you accidently kill ther terminal this is how you would get the app up and running again.
